@@ -16,7 +16,7 @@ const license$ = {
 };
 
 const trial$ = {
-    uuid: "fca4add6-fc53-51da-826e-1b67f43f7f3b",
+    uuid: "898E3CB7-6C67-590F-949A-9CF26B9B63FA",
     started_at: "2026-02-24T03:36:32+01:00",
     ends_at: "2099-12-31T00:00:00+01:00",
     active: true
