@@ -9,14 +9,14 @@ const license$ = {
     limit: 999,
     usage: 1,
     instance: {
-        id: "35787161-5114-5772-bbdb-cb2821d339d9",
+        id: "898E3CB7-6C67-590F-949A-9CF26B9B63FA",
         name: "InjectX",
         model: "team@injectx.com"
     }
 };
 
 const trial$ = {
-    uuid: "35787161-5114-5772-bbdb-cb2821d339d9",
+    uuid: "fca4add6-fc53-51da-826e-1b67f43f7f3b",
     started_at: "2026-02-24T03:36:32+01:00",
     ends_at: "2099-12-31T00:00:00+01:00",
     active: true
@@ -26,22 +26,22 @@ const endpoints = [
     {
         pattern: /^https:\/\/api\.tryalcove\.com\/trial(?:\/([A-F0-9-]+))?$/i,
         response: trial$,
-        signature: "240b9bc5feddaca706e49ee6bd4224b5c02f8cc88ae261438635f358022bde82"
+        signature: "0c086b3d107c90472952555a399bfe7c3e3975b8fbc50d701149c35e1f84fb45"
     },
     {
         pattern: /^https:\/\/api\.tryalcove\.com\/license\/validate$/i,
         response: license$,
-        signature: "f89c5003528c3479e497b4c7851ed038ec0b420eef290cea8d01fe96cb9216fe"
+        signature: "2f33983b7c999852cd4d3537a8c4f568599e022f8e8312c3162e11aead683285"
     },
     {
         pattern: /^https:\/\/api\.tryalcove\.com\/license\/activate$/i,
         response: license$,
-        signature: "f89c5003528c3479e497b4c7851ed038ec0b420eef290cea8d01fe96cb9216fe"
+        signature: "2f33983b7c999852cd4d3537a8c4f568599e022f8e8312c3162e11aead683285"
     },
     {
         pattern: /^https:\/\/api\.tryalcove\.com\/license\/deactivate/i,
         response: license$,
-        signature: "f89c5003528c3479e497b4c7851ed038ec0b420eef290cea8d01fe96cb9216fe"
+        signature: "2f33983b7c999852cd4d3537a8c4f568599e022f8e8312c3162e11aead683285"
     }
 ];
 
